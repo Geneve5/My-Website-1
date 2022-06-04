@@ -12,9 +12,18 @@ form {
     width: 10px
   }
   
-  div {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
+  .intro
+  {
+    position: absolute;
+    top:30%;
+    margin: 0 auto;left:0;right:0;
+    font-size: 45px;
+    text-align: center;
+     font-style: italic;
+  
+  }
+.main-nav{
+    position: absolute; 
+
+    z-index: -1;
   }
